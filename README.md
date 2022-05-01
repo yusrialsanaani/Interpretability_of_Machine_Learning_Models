@@ -20,9 +20,9 @@ The defined explainer can provide Global or local interpretability.
 - Global interpretability: This reflects the general behavior of the features in the model and allow us to understand which are the features that most impact the final output and of how much.
 - Local interpretability: This shows the specific behavior of the features in a single model prediction, allowing us to understand all their single impacts on the final output. 
 
-**Lime** is an example of explainers that provide **Local Interpretability**, while **SHAP** is an example of explainers that provide both **Local and Global Interpretabilities**.
+**LIME** is an example of explainers that provide **Local Interpretability**, while **SHAP** is an example of explainers that provide both **Local and Global Interpretabilities**.
 
-ShAP explainers depends on Shape values. Shape values calculated based on the impact and contribution of each feature toward the prediction.
+SHAP explainers depends on Shap values. Shap values calculated based on the impact and contribution of each feature toward the prediction.
 SHAP provides interpretabilities using different ways through different plots. Each plot will represent the impact, contribution of features in different ways providing both local and global  
 
 
