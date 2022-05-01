@@ -13,8 +13,17 @@ The dataset used in this project is Parkinsons Data Set taken from https://archi
 - The dataset consists of 22 features and 1 result column of the diagnosis. 
 - There are a total of 195 rows. Moreover, the dataset has been created from a measure of dysphonia and pitch period entropy.
 
+## Interpretability Workflow
+The general workflow of Interpretability is shown in the figure below.
+The normal flow is to train a model with data and get predictions, then define an explainer and ingest both the data and the trained model to to it.
+The defined explainer can provide Global or local interpretability.
+- Global interpretability: This reflects the general behavior of the features in the model and allow us to understand which are the features that most impact the final output and of how much.
+- Local interpretability: This shows the specific behavior of the features in a single model prediction, allowing us to understand all their single impacts on the final output. 
 
-![image](https://user-images.githubusercontent.com/89004966/166139022-e8fe3703-46bb-42a6-b7a8-6637864d610d.png)
+**Lime** is an example of explainers that provide **Local Interpretability**, while **SHAP** is an example of explainers that provide both **Local and Global Interpretabilities**.
+
+ShAP explainers depends on Shape values. Shape values calculated based on the impact and contribution of each feature toward the prediction.
+SHAP provides interpretabilities using different ways through different plots. Each plot will represent the impact, contribution of features in different ways providing both local and global  
 
 
 ![image](https://user-images.githubusercontent.com/89004966/166139032-41fec0c1-996c-40ad-bcef-48fa9cbd10bc.png)
