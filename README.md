@@ -26,8 +26,6 @@ SHAP explainers depends on Shap values. Shap values calculated based on the impa
 SHAP provides interpretabilities using different ways through different plots. Each plot will represent the impact, contribution of features in different ways providing both local and global  
 
 
-![image](https://user-images.githubusercontent.com/89004966/166139032-41fec0c1-996c-40ad-bcef-48fa9cbd10bc.png)
-
 ![image](https://user-images.githubusercontent.com/89004966/166139599-8f9596be-0656-4abd-b6d3-7e41bcb61719.png)
 
 
