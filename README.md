@@ -28,4 +28,7 @@ SHAP provides interpretabilities using different ways through different plots. E
 
 ![image](https://user-images.githubusercontent.com/89004966/166139032-41fec0c1-996c-40ad-bcef-48fa9cbd10bc.png)
 
+![image](https://user-images.githubusercontent.com/89004966/166139599-8f9596be-0656-4abd-b6d3-7e41bcb61719.png)
+
+
 
