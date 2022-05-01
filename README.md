@@ -14,4 +14,9 @@ The dataset used in this project is Parkinsons Data Set taken from https://archi
 - There are a total of 195 rows. Moreover, the dataset has been created from a measure of dysphonia and pitch period entropy.
 
 
+![image](https://user-images.githubusercontent.com/89004966/166139022-e8fe3703-46bb-42a6-b7a8-6637864d610d.png)
+
+
+![image](https://user-images.githubusercontent.com/89004966/166139032-41fec0c1-996c-40ad-bcef-48fa9cbd10bc.png)
+
 
